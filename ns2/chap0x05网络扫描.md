@@ -257,7 +257,7 @@ print( dst_port,udp_scan(dst_ip,dst_port,dst_timeout))
 
 * 53端口开启过滤
 
-![](53过滤.png)
+![](53过滤.PNG)
 
 53端口可以开启过滤，但是查看端口状态时依然显示closed，扫描时可以看到过滤开启，靶机不返回信息给攻击者，无法判断端口是开启或是过滤。
 
