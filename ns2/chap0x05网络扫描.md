@@ -251,7 +251,7 @@ print( dst_port,udp_scan(dst_ip,dst_port,dst_timeout))
 
 * 53端口开启 
 
-![](53打开.png)
+![](53打开.PNG)
 
 53端口其实已经打开了，但是扫描时还显示closed，情况和53端口关闭时一致。
 
