@@ -97,7 +97,7 @@ wfuzz -c -z file,wordlist/general/big.txt --hc 404 http://10.0.0.9/FUZZ
 
 * 使用order by：order by 后面的值必须小于或等于数据库中的列数，否则报错```http://10.0.0.9/cat.php?id=2 order by 4```
 
-![]19order.png)
+![](19order.png)
 
 ```http://10.0.0.9/cat.php?id=2 order by 5```
 
